@@ -57,7 +57,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | Inateck        | FE2025   | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt) |       |
 | Sabrent        | EC-SNVE  | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                   |       |
 | Mokin          | MOUD0501 | RTL9210B     |                                                      |                                   |       |
-| Ugreen         | ?        | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)           |       |
+| Ugreen         | CM559    | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)           |       |
 | SmallRig       | SD-01    | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)   |       |
 | MKUO           | SD-01    | RTL9210(B ?) |                                                      |                                   |       |
 | Orico          | M2PJM-C3 | RTL9210(B ?) |                                                      | [dump](dump/ORICO_M2PJM-C3.txt)   |       |
