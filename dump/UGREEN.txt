@@ -54,6 +54,7 @@ PERIPH_API : n/a
 RAID_CFG : n/a 
 Boot Mode : Flash
 FW Ver : 1.29.38
-FW Build Date : 2022.04.25IC 
-Pkg Type : PCIEUUID : n/a
+FW Build Date : 2022.04.25
+IC Pkg Type : PCIE
+UUID : n/a
 Disconn_ForceUSB2 : false
