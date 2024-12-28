@@ -14,7 +14,7 @@ Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge cont
 
 The table below lists all known firmware versions available in this git repository's [firmware](firmware) folder.
 
-| Firmware ver.        | Build date | RTL9210  | RTL9210B  | Links                                                                             |
+| Firmware ver.        | Build date | RTL9201-A  | RTL9210-B  | Links                                                                             |
 | -------------------- | ---------- | -------- | --------- | --------------------------------------------------------------------------------- |
 | 1.20.12              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.20.12).zip)                 |
 | 1.23.5               | 2020.09.03 | ❓       | ❓        | Not found yet                                                                     |
@@ -22,7 +22,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.23.15              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
 | 1.25.7               | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
 | 1.25.14              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
-| 1.25.18              | ?          | ✅       | ✅ ?      | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
+| 1.25.18              | ?          | ✅       | ❓        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
 | 1.27.24              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.24).zip)                 |
 | 1.27.25              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.25).zip)                 |
 | 1.28.17              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.28.17).zip)                 |
@@ -45,6 +45,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.32.901.120722      | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.901.120722).zip)        |
 | 1.33.7.191023        | 19.10.2023 | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
 | 1.33.44.011824       | 18-01-2024 | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
+| 1.33.98.090324       | 03-09-24   | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
 
 ## Supported Devices
 
@@ -173,7 +174,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 7. Launch the Realtek firmware update tool (such as UTHSB_MPtool).
 8. Click on the flash/update device button and wait until the process is finished.
 
-![](image/imageFlash.jpg)
+![image](image/imageFlash.jpg)
 
 ## Firmware changelog
 
@@ -244,9 +245,13 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 - Improved Compatibility
 
+### 1.33.98.090324 03-09-24
+
+- Improved speed on some SSDs (more info [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/632-realtek-rtl9210b-nvme-usb-3-1-controller-firmware-version-1-33-98-090324))
+
 ## Contribute
 
-Don't hesitate to contribute to this git repository by creating a pull request or by contacting me.
+Don't hesitate to contribute to this git repository by creating a pull request or by contacting me by email: **bensuperpc [at] gmail.com**
 
 ## Sources
 
