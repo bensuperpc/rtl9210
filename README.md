@@ -75,7 +75,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 2. Extract the archive.
 3. Connect the device to the computer.
 4. Launch the firmware update tool (such as UTHSB_MPtool) provided in the firmware archive.
-5. Dump your device configuration with the firmware update tool and save it. (Optional but highly recommended)
+5. Dump your device configuration with the firmware update tool and save it.
 6. Disconnect the enclosure from the computer.
 7. Remove the NVMe/SATA drive.
 8. Reconnect the device to the computer.
