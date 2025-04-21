@@ -1,6 +1,8 @@
 # RTL9210
 
-Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge controller. They are provided by [station-drivers](https://www.station-drivers.com), [Realtek](https://www.realtek.com), etc.
+Firmware and tools for **RTL9210** and **RTL9210B** USB to NVMe/SATA bridge controller. They are provided by [station-drivers.com](https://www.station-drivers.com), [Realtek](https://www.realtek.com), etc.
+
+Don't hesitate to support [station-drivers.com](https://www.station-drivers.com), they are a great source for drivers and firmware.
 
 **All procedures described in this Git repository are at your own risk. In case of software issues, you can find some solutions in the [Unbrick](#unbrick) section.**
 
@@ -46,7 +48,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.33.7.191023        | 19.10.2023 | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
 | 1.33.44.011824       | 18-01-2024 | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
 | 1.33.98.090324       | 03-09-24   | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
-
+| 1.34.29       | 04-01-24   | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
 ## Supported Devices
 
 There are dozens of devices with the RTL9210B, I have gathered in this git repository some firmware configs found on the [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/76-nvme-usb-drives-realtek-rtl9210-rtl9220-firmware-version-1-xx?start=0) forums.
@@ -249,9 +251,13 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 - Improved speed on some SSDs (more info [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/632-realtek-rtl9210b-nvme-usb-3-1-controller-firmware-version-1-33-98-090324))
 
+### 1.34.29 04-01-24
+
+- Fixes an issue with random SSD disconnection
+
 ## Contribute
 
-Don't hesitate to contribute to this git repository by creating a pull request or by contacting me by email: **bensuperpc [at] gmail.com**
+Don't hesitate to contribute to this git repository by creating a pull request or by contacting me by email: **bensuperpc [at] gmail.com** (I didn't accept exec files for security reasons).
 
 ## Sources
 
