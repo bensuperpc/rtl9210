@@ -16,39 +16,39 @@ Don't hesitate to support [station-drivers.com](https://www.station-drivers.com)
 
 The table below lists all known firmware versions available in this git repository's [firmware](firmware) folder.
 
-| Firmware ver.        | Build date | RTL9201-A  | RTL9210-B  | Links                                                                             |
-| -------------------- | ---------- | -------- | --------- | --------------------------------------------------------------------------------- |
-| 1.20.12              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.20.12).zip)                 |
-| 1.23.5               | 2020.09.03 | ❓       | ❓        | Not found yet                                                                     |
-| 1.23.9               | 2020.10.05 | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
-| 1.23.15              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
-| 1.25.7               | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
-| 1.25.14              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
-| 1.25.18              | ?          | ✅       | ❓        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
-| 1.27.24              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.24).zip)                 |
-| 1.27.25              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.25).zip)                 |
-| 1.28.17              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.28.17).zip)                 |
-| 1.29.8               | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.8).zip)                  |
-| 1.29.12              | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.12).zip)                 |
-| 1.29.12.011122       | ?          | ✅       | ✅        | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.29.12.011122).zip)        |
-| 1.29.391             | ?          | ✅       | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.391).zip)                |
-| 1.30.17              | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.17).zip)                |
-| 1.30.21.070622       | ?          | ✅       | ✅        | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.30.21.070622).zip)        |
-| 1.30.24.030822       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.24.030822).zip)         |
-| 1.30.28.081022       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.28.081022).zip)         |
-| 1.31.17.102022       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.31.17.102022).zip)         |
-| 1.31.17.102022 (2)   | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.31.17.102022%20(2)).zip)   |
-| 1.32.16.010923       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.16.010923).zip)         |
-| 1.32.45.041323       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.45.041323).zip)         |
-| 1.32.49.140423       | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.49.140423).zip)         |
-| 1.32.49.140423 (Lcd) | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.49.140423%20(Lcd)).zip) |
-| 1.32.68.062623       | 28.06.23   | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.68.062623).zip)         |
-| 1.32.87.082923       | 29.08.23   | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.87.082923).zip)         |
-| 1.32.901.120722      | ?          | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.901.120722).zip)        |
-| 1.33.7.191023        | 19.10.2023 | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
-| 1.33.44.011824       | 18-01-2024 | ❓       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
-| 1.33.98.090324       | 03-09-24   | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
-| 1.34.29       | 04-01-24   | ❌       | ✅        | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
+| Firmware version     | Build date | RTL9201-A | RTL9210-B | Links                                                                             |
+| -------------------- | ---------- | --------- | --------- | --------------------------------------------------------------------------------- |
+| 1.20.12              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.20.12).zip)                 |
+| 1.23.5               | 2020/09/03 | ❓         | ❓         | Not found yet                                                                     |
+| 1.23.9               | 2020/10/05 | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
+| 1.23.15              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
+| 1.25.7               | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
+| 1.25.14              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
+| 1.25.18              | ?          | ✅         | ❓         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
+| 1.27.24              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.24).zip)                 |
+| 1.27.25              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.27.25).zip)                 |
+| 1.28.17              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.28.17).zip)                 |
+| 1.29.8               | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.8).zip)                  |
+| 1.29.12              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.12).zip)                 |
+| 1.29.12.011122       | ?          | ✅         | ✅         | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.29.12.011122).zip)        |
+| 1.29.391             | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.391).zip)                |
+| 1.30.17              | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.17).zip)                |
+| 1.30.21.070622       | ?          | ✅         | ✅         | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.30.21.070622).zip)        |
+| 1.30.24.030822       | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.24.030822).zip)         |
+| 1.30.28.081022       | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.28.081022).zip)         |
+| 1.31.17.102022       | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.31.17.102022).zip)         |
+| 1.31.17.102022 (2)   | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.31.17.102022%20(2)).zip)   |
+| 1.32.16.010923       | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.16.010923).zip)         |
+| 1.32.45.041323       | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.45.041323).zip)         |
+| 1.32.49.140423       | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.49.140423).zip)         |
+| 1.32.49.140423 (Lcd) | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.49.140423%20(Lcd)).zip) |
+| 1.32.68.062623       | 28/06/2023 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.68.062623).zip)         |
+| 1.32.87.082923       | 29/08/2023 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.87.082923).zip)         |
+| 1.32.901.120722      | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.901.120722).zip)        |
+| 1.33.7.191023        | 19/10/2023 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
+| 1.33.44.011824       | 18/01/2024 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
+| 1.33.98.090324       | 03/09/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
+| 1.34.29              | 04/01/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.34.29).zip)                 |
 ## Supported Devices
 
 There are dozens of devices with the RTL9210B, I have gathered in this git repository some firmware configs found on the [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/76-nvme-usb-drives-realtek-rtl9210-rtl9220-firmware-version-1-xx?start=0) forums.
@@ -111,8 +111,8 @@ This section describes how to configure (in cfg files) the firmware for your dev
 | DISK_HOTPLUG             | 0x0                  | Anable device supports hot-plugging (Very often 0x0)                                                            |
 | PINMUX1                  | 0x0                  | Pin multiplexing settings (first set)                                                                           |
 | PINMUX2                  | 0x0                  | Pin multiplexing settings (second set)                                                                          |
-| U2_MAXPWR                | 0xfa                 | USB 2.0 mode maximum power                                                                                           |
-| U3_MAXPWR                | 0x70                 | USB 3.0 mode maximum power                                                                                           |
+| U2_MAXPWR                | 0xfa                 | USB 2.0 mode maximum power                                                                                      |
+| U3_MAXPWR                | 0x70                 | USB 3.0 mode maximum power                                                                                      |
 | ASPMDIS                  | 0x0                  | Enable or disable active power management                                                                       |
 | PCIE_REFCLK              | 0x0                  | PCIe reference clock                                                                                            |
 | PCIE_PWRCUT_THRES        | 0x5                  | Suspends the PCIe power after 5 minutes of idle time  (1 unit = 1 minute),, it recommended to comment this line |
@@ -188,7 +188,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 - Update Kinsea KS10 LED behavior.
 - Fix Fulllink macbook disk speed test issue.
 
-### 1.23.5.09320 2020.09.03
+### 1.23.5.09320 2020/09/03
 
 - Support USB HID interface.
 - Improve the compatibility for RTL9210B.
@@ -201,7 +201,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 - Add LED SSI_6431_fp LED behavior.
 - Improve opal compatibility.
 
-### 1.27.25.072921 2021.07.29
+### 1.27.25.072921 2021/07/29
 
 - This firmware update aims to improve stability with Samsung 980 Pro and Western Digital SN550 NVMe SSDs.
 - The power LED behavior is also improved on Windows, and Intel based Mac systems:
@@ -233,25 +233,25 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 ### 1.32.49.140423 ?
 
-### 1.32.68.062623 28.06.23
+### 1.32.68.062623 28/06/2023
 
-### 1.32.87.082923 29.08.23
+### 1.32.87.082923 29/08/2023
 
 - Addresses USB link instability seen in some SSD models when used in conjunction with Linux-based PCs, including the Solidigm P41 Plus. This update includes compatibility fixes in certain scenarios, including use with the Samsung 980 Pro
 
 ### 1.32.901.120722 ?
 
-### 1.33.7.191023 19-10-2023
+### 1.33.7.191023 19/10/2023
 
-### 1.33.44.011824 18-01-2024
+### 1.33.44.011824 18/01/2024
 
 - Improved Compatibility
 
-### 1.33.98.090324 03-09-24
+### 1.33.98.090324 03/09/2024
 
 - Improved speed on some SSDs (more info [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/632-realtek-rtl9210b-nvme-usb-3-1-controller-firmware-version-1-33-98-090324))
 
-### 1.34.29 04-01-24
+### 1.34.29 04/01/2024
 
 - Fixes an issue with random SSD disconnection
 
