@@ -19,8 +19,8 @@ The table below lists all known firmware versions available in this git reposito
 | Firmware version     | Build date | RTL9201-A | RTL9210-B | Links                                                                             |
 | -------------------- | ---------- | --------- | --------- | --------------------------------------------------------------------------------- |
 | 1.20.12              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.20.12).zip)                 |
-| 1.23.5               | 2020/09/03 | ❓         | ❓         | Not found yet                                                                     |
-| 1.23.9               | 2020/10/05 | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
+| 1.23.5               | 03/09/2020 | ❓         | ❓         | Not found yet                                                                     |
+| 1.23.9               | 05/10/2020 | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
 | 1.23.15              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
 | 1.25.7               | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
 | 1.25.14              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
@@ -48,7 +48,8 @@ The table below lists all known firmware versions available in this git reposito
 | 1.33.7.191023        | 19/10/2023 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
 | 1.33.44.011824       | 18/01/2024 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
 | 1.33.98.090324       | 03/09/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
-| 1.34.29              | 04/01/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.34.29).zip)                 |
+| 1.34.29              | 04/01/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.34.29).zip)                |
+
 ## Supported Devices
 
 There are dozens of devices with the RTL9210B, I have gathered in this git repository some firmware configs found on the [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/76-nvme-usb-drives-realtek-rtl9210-rtl9220-firmware-version-1-xx?start=0) forums.
@@ -180,7 +181,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 ## Firmware changelog
 
-### 1.23.9.100520 2020.10.05
+### 1.23.9.100520 05/10/2020
 
 - Add customized command.
 - Fix SATA USB powercut resume issue.
@@ -188,7 +189,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 - Update Kinsea KS10 LED behavior.
 - Fix Fulllink macbook disk speed test issue.
 
-### 1.23.5.09320 2020/09/03
+### 1.23.5.09320 03/09/2020
 
 - Support USB HID interface.
 - Improve the compatibility for RTL9210B.
@@ -201,7 +202,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 - Add LED SSI_6431_fp LED behavior.
 - Improve opal compatibility.
 
-### 1.27.25.072921 2021/07/29
+### 1.27.25.072921 29/07/2021
 
 - This firmware update aims to improve stability with Samsung 980 Pro and Western Digital SN550 NVMe SSDs.
 - The power LED behavior is also improved on Windows, and Intel based Mac systems:
