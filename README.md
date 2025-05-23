@@ -48,7 +48,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.33.7.191023        | 19/10/2023 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
 | 1.33.44.011824       | 18/01/2024 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
 | 1.33.98.090324       | 03/09/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
-| 1.34.29              | 04/01/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.34.29).zip)                |
+| 1.34.29              | 04/01/2025 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.34.29).zip)                |
 
 ## Supported Devices
 
@@ -252,7 +252,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 - Improved speed on some SSDs (more info [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/632-realtek-rtl9210b-nvme-usb-3-1-controller-firmware-version-1-33-98-090324))
 
-### 1.34.29 04/01/2024
+### 1.34.29 04/01/2025
 
 - Fixes an issue with random SSD disconnection
 
