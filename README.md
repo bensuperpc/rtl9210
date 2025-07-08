@@ -30,7 +30,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.28.17              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.28.17).zip)                 |
 | 1.29.8               | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.8).zip)                  |
 | 1.29.12              | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.12).zip)                 |
-| 1.29.12.011122       | ?          | ✅         | ✅         | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.29.12.011122).zip)        |
+| 1.29.12.011122       | 01/11/2022 | ✅         | ✅         | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.29.12.011122).zip)        |
 | 1.29.391             | ?          | ✅         | ❌         | [Download](firmware/realtek_rtl9210_fw%20(Version%201.29.391).zip)                |
 | 1.30.17              | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.30.17).zip)                |
 | 1.30.21.070622       | ?          | ✅         | ✅         | [Download](firmware/realtek_rtl9210AB_fw%20(Version%201.30.21.070622).zip)        |
