@@ -6,11 +6,19 @@ Don't hesitate to support [station-drivers.com](https://www.station-drivers.com)
 
 **All procedures described in this Git repository are at your own risk. In case of software issues, you can find some solutions in the [Unbrick](#unbrick) section.**
 
-## Files and Folders
+## Table of Contents
 
-- [configure](configure): All configurations for each device.
-- [dump](dump): All dumps for each device.
-- [firmware](firmware): All found firmware.
+- [Firmware](#firmware)
+- [Chipset List](#chipset-list)
+- [Files and Folders](#files-and-folders)
+- [Supported Devices](#supported-devices)
+- [How to Flash the Firmware](#how-to-flash-the-firmware)
+- [Configuration](#configuration)
+- [Create your own configuration](#create-your-own-configuration)
+- [Unbrick](#unbrick)
+- [Firmware changelog](#firmware-changelog)
+- [Contribute](#contribute)
+- [Sources](#sources)
 
 ## Firmware
 
@@ -45,10 +53,27 @@ The table below lists all known firmware versions available in this git reposito
 | 1.32.68.062623       | 28/06/2023 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.68.062623).zip)         |
 | 1.32.87.082923       | 29/08/2023 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.87.082923).zip)         |
 | 1.32.901.120722      | ?          | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.32.901.120722).zip)        |
+| 1.33.5.100623        | ?          | ❓         | ✅         | -                                                                                 |
 | 1.33.7.191023        | 19/10/2023 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.7.191023).zip)          |
 | 1.33.44.011824       | 18/01/2024 | ❓         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.44.011824).zip)         |
 | 1.33.98.090324       | 03/09/2024 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.33.98.090324).zip)         |
-| 1.34.29              | 04/01/2025 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw%20(Version%201.34.29).zip)                |
+| 1.34.29.011325       | 04/01/2025 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw1.34.29(station-drivers.com).zip)          |
+| 1.34.39.032625       | 13/01/2025 | ❌         | ✅         | [Download](firmware/realtek_rtl9210B_fw1.34.39(station-drivers.com).zip)          |
+
+## Chipset List
+
+| Hardware  | USB        | PCIe    | SATA   | NVMe | Others features |
+| --------- | ---------- | ------- | ------ | ---- | --------------- |
+| RTL9210   | 3.x 10Gbps | 3.0x2   | -      | 1.x  |                 |
+| RTL9210B  | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
+| RTL9220VA | 3.2 20Gbps | 3.0x4 ? | -      | 1.x  |                 |
+| RTL9220DP | 3.2 40Gbps | 3.0x4   | -      | 1.x  | RAID0, RAID1    |
+
+## Files and Folders
+
+- [configure](configure): All configurations for each device.
+- [dump](dump): All dumps for each device.
+- [firmware](firmware): All found firmware.
 
 ## Supported Devices
 
@@ -56,18 +81,18 @@ There are dozens of devices with the RTL9210B, I have gathered in this git repos
 
 You can check in the [configure](configure) folder or use values from the [dump](dump) folder to create your own configuration.
 
-| Brand          | Model    | Controller   | config file                                          | dump                              | Notes |
-| -------------- | -------- | ------------ | ---------------------------------------------------- | --------------------------------- | ----- |
-| Inateck        | FE2025   | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt) |       |
-| Sabrent        | EC-SNVE  | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                   |       |
-| Mokin          | MOUD0501 | RTL9210B     |                                                      |                                   |       |
-| Ugreen         | CM559    | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)           |       |
-| SmallRig       | SD-01    | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)   |       |
-| MKUO           | SD-01    | RTL9210(B ?) |                                                      |                                   |       |
-| Orico          | M2PJM-C3 | RTL9210(B ?) |                                                      | [dump](dump/ORICO_M2PJM-C3.txt)   |       |
-| Orico          | PWDM2-G2(A) | RTL9210B | [config](configure/RTL9210B_CG_ORICO_PWDM2-G2.cfg)                 | [dump](dump/ORICO_PWDM2-G2.txt)   |       |
-| Unionsime      | MD202    | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)  |       |
-| UniAccessories | ?        | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)   |       |
+| Brand          | Model       | Controller   | config file                                          | dump                              | Notes |
+| -------------- | ----------- | ------------ | ---------------------------------------------------- | --------------------------------- | ----- |
+| Inateck        | FE2025      | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt) |       |
+| Sabrent        | EC-SNVE     | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                   |       |
+| Mokin          | MOUD0501    | RTL9210B     |                                                      |                                   |       |
+| Ugreen         | CM559       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)           |       |
+| SmallRig       | SD-01       | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)   |       |
+| MKUO           | SD-01       | RTL9210(B ?) |                                                      |                                   |       |
+| Orico          | M2PJM-C3    | RTL9210(B ?) |                                                      | [dump](dump/ORICO_M2PJM-C3.txt)   |       |
+| Orico          | PWDM2-G2(A) | RTL9210B     | [config](configure/RTL9210B_CG_ORICO_PWDM2-G2.cfg)   | [dump](dump/ORICO_PWDM2-G2.txt)   |       |
+| Unionsime      | MD202       | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)  |       |
+| UniAccessories | ?           | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)   |       |
 
 ## How to Flash the Firmware
 
@@ -125,8 +150,8 @@ This section describes how to configure (in cfg files) the firmware for your dev
 | PD                       | 0x1                  | Power Down                                                                                                      |
 | CUSTOMIZED_LED           | 02 01 07             | To customize the LED behavior                                                                                   |
 | SUSPEND_LED_OFF          | 0x1                  | ?                                                                                                               |
-| FORCE_USB_SPEED          | 0x0                  | ?                                                                                                               |
-| FORCE_PCIE_SPEED         | 0x0                  | ?                                                                                                               |
+| FORCE_USB_SPEED          | 0x0                  | Force specific USB speed ?                                                                                      |
+| FORCE_PCIE_SPEED         | 0x0                  | Force specific PCIe speed ?                                                                                     |
 | FORCE_USB_QUIRK          | 0x0                  | ?                                                                                                               |
 | FORCE_PCIE_QUIRK         | 0x0                  | ?                                                                                                               |
 | FAN                      | 0x0                  | Set to 0x1 if the device has a fan                                                                              |
@@ -243,6 +268,8 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 ### 1.32.901.120722 ?
 
+### 1.33.5.100623 ?
+
 ### 1.33.7.191023 19/10/2023
 
 ### 1.33.44.011824 18/01/2024
@@ -253,9 +280,11 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 - Improved speed on some SSDs (more info [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/632-realtek-rtl9210b-nvme-usb-3-1-controller-firmware-version-1-33-98-090324))
 
-### 1.34.29 04/01/2025
+### 1.34.29.011325 04/01/2025
 
 - Fixes an issue with random SSD disconnection
+
+### 1.34.39.032625 13/01/2025
 
 ## Contribute
 
