@@ -64,9 +64,9 @@ The table below lists all known firmware versions available in this git reposito
 
 | Hardware            | USB        | PCIe    | SATA   | NVMe | Others features |
 | ------------------- | ---------- | ------- | ------ | ---- | --------------- |
-| RTL9201(A)          | 3.x 10Gbps | 3.0x2   | -      | 1.x  | Very buggy      |
+| RTL9201(A)          | 3.x 10Gbps | 3.0x2   | -      | 1.x  | Many bugs       |
 | RTL9201R            | 3.x 10Gbps | 3.0x2   | -      | 1.x  |                 |
-| RTL9210(A)          | 3.x 10Gbps | 3.0x2   | -      | 1.x  |                 |
+| RTL9210(A)          | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
 | RTL9210VA           | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
 | RTL9210B            | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
 | RTL9210VB           | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
