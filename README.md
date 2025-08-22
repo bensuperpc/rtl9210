@@ -62,16 +62,17 @@ The table below lists all known firmware versions available in this git reposito
 
 ## Chipset List
 
-| Hardware            | USB        | PCIe    | SATA   | NVMe | Others features |
-| ------------------- | ---------- | ------- | ------ | ---- | --------------- |
-| RTL9201(A)          | 3.x 10Gbps | -       | SATA 3 | 1.x  | Many bugs       |
-| RTL9201R            | 3.x 10Gbps | -       | SATA 3 | 1.x  |                 |
-| RTL9210(A)          | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
-| RTL9210VA           | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
-| RTL9210B            | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
-| RTL9210VB           | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                 |
-| RTL9220 (A or VA ?) | 3.2 20Gbps | 3.0x4 ? | -      | 1.x  |                 |
-| RTL9220DP           | 3.2 40Gbps | 3.0x4   | -      | 1.x  | RAID0, RAID1    |
+| Hardware            | USB        | PCIe    | SATA   | NVMe | Others features                                                          |
+| ------------------- | ---------- | ------- | ------ | ---- | ------------------------------------------------------------------------ |
+| RTL9201(A)          | 3.x 10Gbps | -       | SATA 3 | 1.x  | Many bugs                                                                |
+| RTL9201R            | 3.x 10Gbps | -       | SATA 3 | 1.x  |                                                                          |
+| RTL9210(A)          | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                                                                          |
+| RTL9210VA           | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                                                                          |
+| RTL9210B            | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  | [RTL9210B-CG](https://www.realtek.com/Product/Index?id=4075&cate_id=786) |
+| RTL9210VB           | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  |                                                                          |
+| RTL9210BPD          | 3.x 10Gbps | 3.0x2   | SATA 3 | 1.x  | Power Delivery support, [RTL9210BPD-CG](https://www.realtek.com/Product/Index?id=4076&cate_id=786) |
+| RTL9220 (A or VA ?) | 3.2 20Gbps | 3.0x4 ? | -      | 1.x  |                                                                          |
+| RTL9220DP           | 3.2 40Gbps | 3.0x4   | -      | 1.x  | RAID0, RAID1                                                             |
 
 ## Files and Folders
 
