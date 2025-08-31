@@ -60,6 +60,3 @@ IC Pkg Type : PCIE/SATA
 UUID : n/a
 
 Disconn_ForceUSB2 : false
-
-
-
