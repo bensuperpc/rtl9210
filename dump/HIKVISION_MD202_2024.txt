@@ -1,0 +1,65 @@
+**************************************************************
+Device : [Port1] :          HIKVISION #0
+**************************************************************
+U2PHY : n/a
+U3PHY : n/a
+VID : 0x0bda
+PID : 0x9210
+MANUFACTURE : "HIKVISION"
+PRODUCT : "HIKVISION"
+SERIAL : "012345612345"
+SCSI_PRODUCT : "HIKVISION       "
+SCSI_VENDOR : "        "
+USB_SELF_PWR : n/a
+DISK_HOTPLUG : n/a
+LED : 0x02
+PINMUX1 : n/a
+PINMUX2 : n/a
+U2_MAXPWR : n/a
+U3_MAXPWR : n/a
+ASPMDIS : n/a
+PCIE_REFCLK : n/a
+DISK_IPS_THRES : 0x0a
+SWR_1_2V : n/a
+EN_UPS : n/a
+PD : n/a
+CUSTOMIZED_LED : 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+SUSPEND_LED_OFF : n/a
+FORCE_USB_SPEED : n/a
+FORCE_PCIE_SPEED : n/a
+EN_U1U2 : n/a
+FORCE_USB_QUIRK : n/a
+FORCE_PCIE_QUIRK : n/a
+FAN : n/a
+DIS_SHOW_EMPTY_DISK : n/a
+FORCE_SATA_NORMAL_DMA : n/a
+UART_DBG_PIN : 0x05
+FINGER_PRINT_EN : n/a
+RM_INTERNAL_RD : n/a
+HS_AUTO_SWITCH : n/a
+UART_BAUD_RATE : n/a
+CUSTOMIZED_DISK_IDENTIFY : n/a
+HW_LED_CFG : n/a
+CDROM_CFG : n/a
+SUPPORT_HID : n/a
+LATE_INIT_DISK : n/a
+SCSI_WP_PIN : n/a
+SD_MMC_TYPE : n/a
+FORCE_PORT_TYPE : n/a
+BCDDEVICE : n/a
+SUSPEND_DISK_OFF : n/a
+SCSI_WB_PIN : n/a
+CUSTOMIZED_FEATURE : n/a
+PERIPH_API : n/a
+RAID_CFG : n/a
+
+Boot Mode : Flash
+FW Ver : 1.32.87
+FW Build Date : 2023.08.29
+IC Pkg Type : PCIE/SATA
+UUID : n/a
+
+Disconn_ForceUSB2 : false
+
+
+
