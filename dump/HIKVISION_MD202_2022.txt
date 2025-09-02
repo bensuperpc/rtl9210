@@ -1,0 +1,57 @@
+**************************************************************
+Device : [Port1] : HKVSN MD202 #0
+**************************************************************
+U2PHY : 02 f4 9b e0 e1 
+U3PHY : 02 d4 09 00 d5 00 80 
+VID : 0x0bda
+PID : 0x9210
+MANUFACTURE : "HIKVISION"
+PRODUCT : "MD202"
+SERIAL : "012345612345"
+SCSI_PRODUCT : "MD202           "
+SCSI_VENDOR : "HKVSN   "
+DISK_HOTPLUG : 0x00
+LED : 0x02
+PINMUX1 : 0x00000000
+PINMUX2 : 0x00000700
+U2_MAXPWR : 0xfa
+U3_MAXPWR : 0x00
+ASPMDIS : 0x00
+PCIE_REFCLK : n/a
+DISK_IPS_THRES : 0x0a
+SWR_1_2V : n/a
+EN_UPS : n/a
+PD : n/a
+CUSTOMIZED_LED : n/a
+SUSPEND_LED_OFF : n/a
+FORCE_USB_SPEED : n/a
+FORCE_PCIE_SPEED : n/a
+EN_U1U2 : n/a
+FORCE_USB_QUIRK : n/a
+FORCE_PCIE_QUIRK : n/a
+FAN : n/a
+DIS_SHOW_EMPTY_DISK : n/a
+FORCE_SATA_NORMAL_DMA : n/a
+UART_DBG_PIN : 0x05
+FINGER_PRINT_EN : n/a
+RM_INTERNAL_RD : n/a
+HS_AUTO_SWITCH : n/a
+FP_UART_BAUD_RATE : n/a
+CUSTOMIZED_DISK_IDENTIFY : n/a
+HW_LED_CFG : n/a
+CDROM_CFG : n/a
+SUPPORT_HID : n/a
+LATE_INIT_DISK : n/a
+SCSI_WP_PIN : n/a
+SD_MMC_TYPE : n/a
+EFUSE : 
+       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+       -------------------------------------------------
+
+Boot Mode : Flash
+FW Ver : 1.29.12
+FW Build Date : 2022.01.11
+IC Pkg Type : PCIE_SATA
+UUID : n/a
+
+Disconn_ForceUSB2 : 0x00
