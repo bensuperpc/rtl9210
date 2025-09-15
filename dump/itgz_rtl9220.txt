@@ -1,0 +1,68 @@
+# This is "noname" device sold on ozon.ru and AliExpress by many sellers 
+# It is labeled as ITGZ
+
+**************************************************************
+Device : [Port1] : Realtek RTL9220 #0
+**************************************************************
+U2PHY : n/a
+U3PHY : n/a
+VID : 0x0bda
+PID : 0x9220
+MANUFACTURE : "Realtek"
+PRODUCT : "RTL9220"
+SERIAL : "012345678921"
+SCSI_PRODUCT : "RTL9220         "
+SCSI_VENDOR : "Realtek "
+USB_SELF_PWR : n/a
+DISK_HOTPLUG : n/a
+LED : 0x01
+PINMUX1 : n/a
+PINMUX2 : n/a
+U2_MAXPWR : n/a
+U3_MAXPWR : n/a
+ASPMDIS : n/a
+PCIE_REFCLK : n/a
+DISK_IPS_THRES : 0x0a
+SWR_1_2V : n/a
+EN_UPS : n/a
+PD : n/a
+CUSTOMIZED_LED : 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+SUSPEND_LED_OFF : 0x00
+FORCE_USB_SPEED : n/a
+FORCE_PCIE_SPEED : n/a
+EN_U1U2 : n/a
+FORCE_USB_QUIRK : n/a
+FORCE_PCIE_QUIRK : 0x00040000
+FAN : n/a
+DIS_SHOW_EMPTY_DISK : n/a
+FORCE_SATA_NORMAL_DMA : n/a
+UART_DBG_PIN : 0x64
+FINGER_PRINT_EN : n/a
+RM_INTERNAL_RD : n/a
+HS_AUTO_SWITCH : n/a
+UART_BAUD_RATE : n/a
+CUSTOMIZED_DISK_IDENTIFY : n/a
+HW_LED_CFG : 0x00000000
+CDROM_CFG : n/a
+SUPPORT_HID : n/a
+LATE_INIT_DISK : n/a
+SCSI_WP_PIN : n/a
+SD_MMC_TYPE : n/a
+FORCE_PORT_TYPE : n/a
+BCDDEVICE : n/a
+SUSPEND_DISK_OFF : 0x07
+SCSI_WB_PIN : n/a
+CUSTOMIZED_FEATURE : n/a
+PERIPH_API : n/a
+RAID_CFG : n/a
+
+Boot Mode : Flash
+FW Ver : 1.33.89
+FW Build Date : 2024.07.26
+IC Pkg Type : PCIE/SATA SD
+UUID : n/a
+
+Disconn_ForceUSB2 : false
+
+
+
