@@ -30,6 +30,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.23.5               | ❓          | ❓          | ❓        | ❌        | Not found yet                                                                     |
 | 1.23.9               | ❓          | ✅          | ❌        | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.9).zip)                  |
 | 1.23.15              | ❓          | ✅          | ❌        | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.23.15).zip)                 |
+| 1.24.2               | ❓          | ❓          | ✅        | ❓        | Not found yet                                                                     |
 | 1.25.7               | ❓          | ✅          | ❌        | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.7).zip)                  |
 | 1.25.14              | ❓          | ✅          | ❌        | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.14).zip)                 |
 | 1.25.18              | ❓          | ✅          | ❓        | ❌        | [Download](firmware/realtek_rtl9210_fw%20(Version%201.25.18).zip)                 |
@@ -87,19 +88,20 @@ There are dozens of devices with the RTL9210B, I have gathered in this git repos
 
 You can check in the [configure](configure) folder or use values from the [dump](dump) folder to create your own configuration.
 
-| Brand          | Model       | Controller   | config file                                          | dump                              | Notes |
-| -------------- | ----------- | ------------ | ---------------------------------------------------- | --------------------------------- | ----- |
-| Fideco         | M211CP      | RTL9210B     | [config](configure/FIDECO_M211CP.cfg)                | [dump](dump/FIDECO_M211CP.txt)    |       |
-| Inateck        | FE2025      | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt) |       |
-| Sabrent        | EC-SNVE     | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                   |       |
-| Mokin          | MOUD0501    | RTL9210B     |                                                      | [dump](dump/MOKiN.txt)                                   |       |
-| Ugreen         | CM559       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)           |       |
-| SmallRig       | SD-01       | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)   |       |
-| MKUO           | SD-01       | RTL9210(B ?) |                                                      |                                   |       |
+| Brand          | Model       | Controller   | config file                                          | dump                                 | Notes |
+| -------------- | ----------- | ------------ | ---------------------------------------------------- | ------------------------------------ | ----- |
+| Fideco         | M211CP      | RTL9210B     | [config](configure/FIDECO_M211CP.cfg)                | [dump](dump/FIDECO_M211CP.txt)       |       |
+| Inateck        | FE2025      | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt)    |       |
+| Sabrent        | EC-SNVE     | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                      |       |
+| Mokin          | MOUD0501    | RTL9210B     |                                                      | [dump](dump/MOKiN.txt)               |       |
+| Ugreen         | CM559       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)              |       |
+| SmallRig       | SD-01       | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)      |       |
+| MKUO           | SD-01       | RTL9210(B ?) |                                                      |                                      |       |
 | Orico          | M2PJM-C3    | RTL9210      | [config](configure/RTL9210_ORICO_M2PJM-C3.cfg)       | [dump](dump/ORICO_M2PJM-C3.txt)   |       |
-| Orico          | PWDM2-G2(A) | RTL9210B     | [config](configure/RTL9210B_CG_ORICO_PWDM2-G2.cfg)   | [dump](dump/ORICO_PWDM2-G2.txt)   |       |
-| Unionsime      | MD202       | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)  |       |
-| UniAccessories | ?           | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)   |       |
+| Orico          | PWDM2-G2(A) | RTL9210B     | [config](configure/RTL9210B_CG_ORICO_PWDM2-G2.cfg)   | [dump](dump/ORICO_PWDM2-G2.txt)      |       |
+| Orico          | AM2C3-G2    | RTL9210B     | [config](configure/RTL9210B_CG.cfg)                  | [dump](dump/ORICO_NVME_AM2C3-G2.txt) |       |
+| Unionsime      | MD202       | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)     |       |
+| UniAccessories | ?           | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)      |       |
 
 ## How to Flash the Firmware
 
