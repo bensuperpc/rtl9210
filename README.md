@@ -93,6 +93,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | -------------- | ----------- | ------------ | ---------------------------------------------------- | ------------------------------------ | ----- |
 | Fideco         | M211CP      | RTL9210B     | [config](configure/FIDECO_M211CP.cfg)                | [dump](dump/FIDECO_M211CP.txt)       |       |
 | Inateck        | FE2025      | RTL9210B     | [config](configure/RTL9210B_CG_INATEK_FE2025_N1.cfg) | [dump](dump/INATEK_FE2025_N1.txt)    |       |
+| ITGZ        | ITH10-U012      | RTL9210B     | [config](configure/RTL9210B_CG_ITGZ_ITH10_U012.cfg) | [dump](dump/ITGZ_ITH10_U012.txt)    |       |
 | Sabrent        | EC-SNVE     | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                      |       |
 | Mokin          | MOUD0501    | RTL9210B     |                                                      | [dump](dump/MOKiN.txt)               |       |
 | Ugreen         | CM559       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)              |       |
