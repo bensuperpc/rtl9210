@@ -188,7 +188,7 @@ This section describes how to configure (in cfg files) the firmware for your dev
 | PERIPH_API               | 0x0                  | ?                                                                                                               |
 | RAID_CFG                 | 0x0                  | ?                                                                                                               |
 
-## Considerations for Low Power environents (Internal USB Ports on Servers & Rasberry Pie)
+## Considerations for Low Power environments (Internal USB Ports on Servers & Rasberry Pie)
 
 The device will check available power upon connection and power on and negotiate from USB 3.0 down to USB 2.0 
 if it deems not enough power to available. This leads to multiple drawbacks: 
