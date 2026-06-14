@@ -102,6 +102,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | Orico          | PWDM2-G2(A) | RTL9210B     | [config](configure/RTL9210B_CG_ORICO_PWDM2-G2.cfg)   | [dump](dump/ORICO_PWDM2-G2.txt)      |       |
 | Orico          | AM2C3-G2    | RTL9210B     | [config](configure/RTL9210B_CG.cfg)                  | [dump](dump/ORICO_NVME_AM2C3-G2.txt) |       |
 | Orico          | TCM2M-C3    | RTL9210B     | [config](configure/Orico_TCM2M-C3.cfg)               | [dump](dump/Orico_TCM2M-C3.txt)      |       |
+| Orico          | HM2-G2      | RTL9210B     | [config](configure/ORICO_HM2_G2.cfg)                 | [dump](dump/ORICO_HM2-G2.txt)        | Tested with firmware [1.34.39](firmware/realtek_rtl9210B_fw1.34.39\(station-drivers.com\).zip). Select latest FW from selection since its not default one |
 | Unionsime      | MD202       | RTL9210B     | [config](configure/RTL9210B_CG_UNIONSINE_MD202.cfg)  | [dump](dump/UNIONSINE_MD202.txt)     |       |
 | UniAccessories | ?           | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)      |       |
 | Fideco | M210           | RTL9210C(N)     | [default config](configure/Fideco-M210-RTL9210-default.cfg) [low power boot drive config](configure/Fideco-M210-RTL9210-HighCompatibilityforBoot.cfg)   |       |       |
