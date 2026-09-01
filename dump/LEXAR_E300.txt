@@ -1,63 +1,65 @@
-;Configure Start
-;=================FW Configure=================
-U2PHY = 02 f4 9b e0 e1
-U3PHY = 02 d4 09 00 d5 00 80
+**************************************************************
+Device : [Port17] : Lexar E300 #0
+**************************************************************
+U2PHY : n/a
+U3PHY : n/a
+VID : 0x21c4
+PID : 0xb083
+MANUFACTURE : "Lexar"
+PRODUCT : "E300"
+SERIAL : "012345687875"
+SCSI_PRODUCT : "E300            "
+SCSI_VENDOR : "Lexar   "
+USB_SELF_PWR : n/a
+DISK_HOTPLUG : n/a
+LED : 0x02
+PINMUX1 : n/a
+PINMUX2 : n/a
+U2_MAXPWR : n/a
+U3_MAXPWR : n/a
+ASPMDIS : n/a
+PCIE_REFCLK : n/a
+DISK_IPS_THRES : 0x0a
+SWR_1_2V : n/a
+EN_UPS : n/a
+PD : n/a
+CUSTOMIZED_LED : n/a
+SUSPEND_LED_OFF : n/a
+FORCE_USB_SPEED : n/a
+FORCE_PCIE_SPEED : n/a
+EN_U1U2 : n/a
+FORCE_USB_QUIRK : n/a
+FORCE_PCIE_QUIRK : n/a
+FAN : n/a
+DIS_SHOW_EMPTY_DISK : n/a
+FORCE_SATA_NORMAL_DMA : n/a
+UART_DBG_PIN : 0x05
+FINGER_PRINT_EN : n/a
+RM_INTERNAL_RD : n/a
+HS_AUTO_SWITCH : n/a
+UART_BAUD_RATE : n/a
+CUSTOMIZED_DISK_IDENTIFY : n/a
+HW_LED_CFG : n/a
+CDROM_CFG : n/a
+SUPPORT_HID : n/a
+LATE_INIT_DISK : n/a
+SCSI_WP_PIN : n/a
+SD_MMC_TYPE : n/a
+FORCE_PORT_TYPE : n/a
+BCDDEVICE : n/a
+SUSPEND_DISK_OFF : n/a
+SCSI_WB_PIN : n/a
+CUSTOMIZED_FEATURE : n/a
+PERIPH_API : n/a
+RAID_CFG : n/a
 
-VID = 0xbda
-PID = 0x9210
+Boot Mode : Flash
+FW Ver : 1.32.87
+FW Build Date : 2023.08.29
+IC Pkg Type : PCIE
+UUID : n/a
 
-MANUFACTURE = "Inateck"
-PRODUCT = "FE2025"
+Disconn_ForceUSB2 : false
 
-SCSI_PRODUCT = "RTL9210B NVME"
-SCSI_VENDOR = "Realtek"
 
-;"0123" for Dec, "0x0123" for Hex, max 12 digits
-;SN von Gehäuse anpassen - Adjust SN of Enclosure
-SERIAL = "2F22AKA1"
 
-DISK_HOTPLUG = 0x0
-LED = 0x2
-PINMUX1 = 0x0
-PINMUX2 = 0x0
-U2_MAXPWR = 0xfa
-U3_MAXPWR = 0x0
-ASPMDIS = 0x0
-
-;10 minutes of idle time will disable disk power
-;Anpassen mit aus (false) oder Zeit in minuten. z.b. 10
-;Adjust with off (false) or time in minutes. E.g. 10
-DISK_IPS_THRES = false
-
-;EN_UPS = n/a
-;PD = n/a
-
-HW_LED_CFG = false
-CUSTOMIZED_LED is 15 bytes = 0x80000081
-CUSTOMIZED_LED = 07 00
-SUSPEND_LED_OFF = 0x0
-FAN = false
-
-DIS_SHOW_EMPTY_DISK = false
-FORCE_SATA_NORMAL_DMA = false
-UART_DBG_PIN = 0x5
-FINGER_PRINT_EN = false
-
-;=================Tool Configure=================
-DISCONN_FORCE_USB2 = 0x0
-FORMAT_DISK = n
-INC_SERIAL = false
-
-;PARTITION: GPT, MBR
-PARTITION = "GPT"
-;FORMAT: NTFS, exFAT
-FORMAT = "exFAT"
-;LABEL max allowed - characters
-LABEL = "Inateck m2"
-
-Boot Mode = false
-FW Ver = 1
-FW Build Date = 2023
-IC Ver = 0xa0010002
-
-Disconn_ForceUSB2 = 0x0
