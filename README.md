@@ -66,6 +66,7 @@ The table below lists all known firmware versions available in this git reposito
 | 1.34.29.011325       | ❓          | ❌          | ✅        | ❓        | ❓           | ❓ | [Download](firmware/realtek_rtl9210B_fw1.34.29(station-drivers.com).zip)          |
 | 1.34.39.032625       | ❓          | ❌          | ✅        | ❓        | ❓           | ❓ | [Download](firmware/realtek_rtl9210B_fw1.34.39(station-drivers.com).zip)          |
 | 9.34.74.091125       | ❓          | ❓          | ❓        | ❓        | ✅           | ✅ | [Download](firmware/realtek_rtl9210C_fw%20(Version%209.34.74.091125).zip)         |
+| 1.35.6.040126        | ❓          | ❌          | ✅        | ❓        | ❓           | ❓ | [Download](firmware/realtek_rtl9210B_fw1.35.6(station-drivers.com).zip)          |
 
 ## Chipset List
 
@@ -198,25 +199,25 @@ This section describes how to configure (in cfg files) the firmware for your dev
 
 ## Considerations for Low Power environments (Internal USB Ports on Servers & Rasberry Pie)
 
-The device will check available power upon connection and power on and negotiate from USB 3.0 down to USB 2.0 
-if it deems not enough power to available. This leads to multiple drawbacks: 
+The device will check available power upon connection and power on and negotiate from USB 3.0 down to USB 2.0
+if it deems not enough power to available. This leads to multiple drawbacks:
 
-1. UASP support is lost; 
+1. UASP support is lost;
 2. As a consequence Trim and Discard is lost.
 
 The implications are a much quicker wearout of the media if not rectified, apart from the obvious speed loss.
-If the device is used on an internal server port without external power `U3_MAXPWR` and `U2_MAXPWR` should be set to the port standard limits (see table above). 
+If the device is used on an internal server port without external power `U3_MAXPWR` and `U2_MAXPWR` should be set to the port standard limits (see table above).
 
-The following table indicates the max power and configuration of a standard USB-A port for USB 2.0 and 3.x. I personally would recommend testing the USB support on a server before putting the disk into operation. A good tool to use is shredOS combined with the linux arch commands to verify via `lsusb -t` USB protocol used and if UASP is supported. 
+The following table indicates the max power and configuration of a standard USB-A port for USB 2.0 and 3.x. I personally would recommend testing the USB support on a server before putting the disk into operation. A good tool to use is shredOS combined with the linux arch commands to verify via `lsusb -t` USB protocol used and if UASP is supported.
 
 | USB Generation     | U2_MAXPWR / U3_MAXPWR | Standard Hex Value | Max Current | Max Power | Note                                            |
 |--------------------|-----------------------|--------------------|-------------|-----------|-------------------------------------------------|
 | USB 2.0            | U2_MAXPWR             | 0xfa               | 500 mA      | 2.5 W     | Borderline value for any drive (Sata or NVME not recommended) |
 | USB 3.0, 3.1 & 3.2 | U3_MAXPWR             | 0x70               | 896 mA      | 4.5 W     | Low Energy SATA Drives are ok             |
 
-MAXPWR hereby solely communicates to the parent controller (mainboard chipset) the expected consumption. 
+MAXPWR hereby solely communicates to the parent controller (mainboard chipset) the expected consumption.
 
-To effectively reduce consumption, further steps need to be taken: 
+To effectively reduce consumption, further steps need to be taken:
 The .cfg setting `LATE_INIT_DISK : 0x1` allows the controller to separate the initialization of ASIC (the RTL9210) and disk sequentially giving all components the time to:
 
 1. fully initiliaze the controller;
@@ -224,13 +225,13 @@ The .cfg setting `LATE_INIT_DISK : 0x1` allows the controller to separate the in
 3. Communicate the presence of both to the BIOS / UEFI.
 
 The change seems also to trigger a more verbose communication avoiding a stuck system on boot phases during the control of available devices on USB-Bus.
-When receiving power the SSD boots its internal flash controller, loads its flash translation layer (FTL) into its internal cache, and responds to the motherboard's SATA handshake. Oscilloscope testing shows that booting a SATA SSD mimics an active read cycle, pulsing briefly between 2.0W and 3.5W before dropping down to an idle state of less than 0.5W once the operating system takes over. The non sequential, but parallel, default procedure of the controller can lead to excess requirements beyond the standard power of 4.5W available when controller and disk startup at the same time. 
+When receiving power the SSD boots its internal flash controller, loads its flash translation layer (FTL) into its internal cache, and responds to the motherboard's SATA handshake. Oscilloscope testing shows that booting a SATA SSD mimics an active read cycle, pulsing briefly between 2.0W and 3.5W before dropping down to an idle state of less than 0.5W once the operating system takes over. The non sequential, but parallel, default procedure of the controller can lead to excess requirements beyond the standard power of 4.5W available when controller and disk startup at the same time.
 
 ## Trim Support on Proxmox (and possibly other Linux based systems)
 *Tested only with nvme drives.*
 Linux has proven to be very hesitant in adopting Trim Support for RTL9210(x) enclosures, often the support needs to be manually enforced. In addition, for booting from USB you will want to increase the Grub timeout to boot to give the system the needed time to pull up all devices. 20 seconds should suffice.
 
-Check first if support is given  (irrelevant drives have been removed): 
+Check first if support is given  (irrelevant drives have been removed):
 
 ```
 root@mypve:~# lsblk -D | grep sde
@@ -247,10 +248,10 @@ sde                       0         0        0         0
     └─pve-data            0         0        0         0
 ```
 
-The 0 indicates that neither the block device (the disk), nor the partitions currently support trim. 
+The 0 indicates that neither the block device (the disk), nor the partitions currently support trim.
 
-To change that we will enforce recognition on system level: 
-First retrieve the device name (irrelevant information has been removed): 
+To change that we will enforce recognition on system level:
+First retrieve the device name (irrelevant information has been removed):
 
 ```
 root@mypve:~# lsusb -v
@@ -262,7 +263,7 @@ Device Descriptor:
   bcdUSB               3.20
   bDeviceClass            0 [unknown]
   bDeviceSubClass         0 [unknown]
-  bDeviceProtocol         0 
+  bDeviceProtocol         0
   bMaxPacketSize0         9
   idVendor           0x0bda Realtek Semiconductor Corp.
   idProduct          0x9210 RTL9210 M.2 NVME Adapter
@@ -273,21 +274,21 @@ Device Descriptor:
   bNumConfigurations      1
 ```
 
-Take note of the `iProduct` value `RTL9210CN`, we will need it to create following file for a custom dev rule: 
+Take note of the `iProduct` value `RTL9210CN`, we will need it to create following file for a custom dev rule:
 
 ```
 root@mypve:~# nano /etc/udev/rules.d/10-usb-trim.rules
 ACTION=="add|change", ATTRS{product}=="RTL9210CN", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
 ```
 
-Now we enforce the rule: 
+Now we enforce the rule:
 
 ```
 root@mypve:~# udevadm control --reload-rules
 root@mypve:~# udevadm trigger
 ```
 
-As a result the device should now successfully present itself with trim support, the partitions not yet. 
+As a result the device should now successfully present itself with trim support, the partitions not yet.
 
 ```
 root@mypve:~# lsblk -D | grep sde
