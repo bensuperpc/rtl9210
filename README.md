@@ -113,6 +113,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | UniAccessories | ?           | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)      |       |
 | Lexar          | E300        | RTL9210B     | [config](configure/LEXAR_E300.cfg)                   | [dump](dump/LEXAR_E300.txt)          |       |
 | Fideco | M210           | RTL9210C(N)     | [default config](configure/Fideco-M210-RTL9210-default.cfg) [low power boot drive config](configure/Fideco-M210-RTL9210-HighCompatibilityforBoot.cfg)   |       |       |
+| HAGiBiS        | MC100 Pro   | RTL9210B     | [config](configure/HAGiBiS_MC100_Pro.cfg)            | [dump](dump/HAGiBiS_MC100_Pro.txt)   |       |
 
 ## How to Flash the Firmware
 
