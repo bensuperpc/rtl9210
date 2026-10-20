@@ -102,6 +102,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | Sabrent        | EC-SNVE     | RTL9210B     | [config](configure/RTL9210B_CG_SABRANT_EC-SNVE.cfg)  |                                      |       |
 | Mokin          | MOUD0501    | RTL9210B     |                                                      | [dump](dump/MOKiN.txt)               |       |
 | Ugreen         | CM559       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)              |       |
+| Ugreen         | CM400       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           |                                      | Tested with firmware [1.35.6](firmware/realtek_rtl9210B_fw1.35.6\(station-drivers.com\).zip), updated from 1.29.38 (SERIAL set to the device's own). Fixed random disconnects and 0-byte "not initialized" disk on reconnect. The enclosure is hidden when empty (`DIS_SHOW_EMPTY_DISK = 0x1`), so it was flashed with the NVMe installed |
 | SmallRig       | SD-01       | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)      |       |
 | MKUO           | SD-01       | RTL9210(B ?) |                                                      |                                      |       |
 | Orico          | M2PJM-C3    | RTL9210      | [config](configure/RTL9210_ORICO_M2PJM-C3.cfg)       | [dump](dump/ORICO_M2PJM-C3.txt)      |       |
