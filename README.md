@@ -103,6 +103,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | Mokin          | MOUD0501    | RTL9210B     |                                                      | [dump](dump/MOKiN.txt)               |       |
 | Ugreen         | CM559       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           | [dump](dump/UGREEN.txt)              |       |
 | Ugreen         | CM400       | RTL9210B     | [config](configure/RTL9210B_CG_UGREEN.cfg)           |                                      | Tested with firmware [1.35.6](firmware/realtek_rtl9210B_fw1.35.6\(station-drivers.com\).zip), updated from 1.29.38 (SERIAL set to the device's own). Fixed random disconnects and 0-byte "not initialized" disk on reconnect. The enclosure is hidden when empty (`DIS_SHOW_EMPTY_DISK = 0x1`), so it was flashed with the NVMe installed |
+| Ugreen         | CM767       | RTL9210      | [config](configure/Ugreen_CM767.cfg)                 | [dump](dump/Ugreen_CM767.txt)        |       |
 | SmallRig       | SD-01       | RTL9210B     |                                                      | [dump](dump/SMALLRIG_SD-01.txt)      |       |
 | MKUO           | SD-01       | RTL9210(B ?) |                                                      |                                      |       |
 | Orico          | M2PJM-C3    | RTL9210      | [config](configure/RTL9210_ORICO_M2PJM-C3.cfg)       | [dump](dump/ORICO_M2PJM-C3.txt)      |       |
@@ -114,6 +115,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 | UniAccessories | ?           | RTL9210B     | [config](configure/RTL9210B_CG_UniAccessories.cfg)   | [dump](dump/UniAccessories.txt)      |       |
 | Lexar          | E300        | RTL9210B     | [config](configure/LEXAR_E300.cfg)                   | [dump](dump/LEXAR_E300.txt)          |       |
 | Fideco | M210           | RTL9210C(N)     | [default config](configure/Fideco-M210-RTL9210-default.cfg) [low power boot drive config](configure/Fideco-M210-RTL9210-HighCompatibilityforBoot.cfg)   |       |       |
+| HAGiBiS        | MC100 Pro   | RTL9210B     | [config](configure/HAGiBiS_MC100_Pro.cfg)            | [dump](dump/HAGiBiS_MC100_Pro.txt)   |       |
 
 ## How to Flash the Firmware
 
